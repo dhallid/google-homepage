@@ -1,11 +1,17 @@
 body {
-	background-color: #FFFAF0;
+	background-color: #FFFFFF;
 	color: #606060;
 }
 
 #main {
  	font-family: "Times New Roman", serif;
 	font-size: 5em;
+}
+
+a {
+	color: #606060;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
 }
 
 #red{
