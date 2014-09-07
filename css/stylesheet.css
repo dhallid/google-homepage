@@ -3,17 +3,44 @@ body {
 	color: #606060;
 }
 
-#main {
- 	font-family: "Times New Roman", serif;
-	font-size: 5em;
-}
-
 a {
 	color: #606060;
 	font-family: Arial, sans-serif;
 	text-decoration: none;
+	padding: 0px 10px 0px 10px
 }
 
+.top_links{
+	display: inline-block;
+
+}
+
+#main {
+	display: block;
+	width: 40%;
+}
+
+#input{
+	width: 100%;
+}
+
+#bottom_links {
+	background-color: #F2F2F2;
+	position: fixed;
+	bottom: 0;
+	width: 99%;
+	padding: 20px 20px 20px 20px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+	border: solid black;
+}
+/*
 #red{
 	color: #D84732;
 }
@@ -33,3 +60,4 @@ a {
 #orange {
 	color: #D94530;
 }
+*/
